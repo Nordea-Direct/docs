@@ -4,9 +4,9 @@ We use Github Actions to automate building, tagging and deploying our projects t
 
 ## Table of Contents
 
-* [Build stage](##build-stage)
-* [Pre-Release stage](##pre-release-stage)
-* [Release stage](##release-stage)
+* [Build stage](#build-stage)
+* [Pre-Release stage](#pre-release-stage)
+* [Release stage](#release-stage)
 
 ## Build stage
 
