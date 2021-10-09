@@ -2,6 +2,8 @@
 
 Done by [diagrams.net](diagrams.net) 
 
+(these might not be in the correct order)
+
 ![Start](https://github.com/Nordea-Direct/docs/blob/main/documentation/images/diagrams.net%20start.jpg)
 
 ![Authorize](https://github.com/Nordea-Direct/docs/blob/main/documentation/images/diagrams.net%20authorize.jpg)
