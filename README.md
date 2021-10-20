@@ -8,5 +8,5 @@ This repository aims to contain documentation of the Nordea Direct repositories.
 
 ## Wiki
 
-Most of the docs is in the [wiki](wiki)
+Most of the docs is in the [wiki](https://github.com/Nordea-Direct/docs/wiki)
 
