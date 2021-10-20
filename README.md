@@ -5,3 +5,8 @@ This repository aims to contain documentation of the Nordea Direct repositories.
 ## Table of contents
 
 1. [Github Actions](documentation/github_actions.md)
+
+## Wiki
+
+Most of the docs is in the [wiki](wiki)
+
