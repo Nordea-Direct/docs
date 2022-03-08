@@ -1,13 +1,16 @@
 ```mermaid
   graph TD;
-      User --> Firewall;
-      Firewall --> BigIP;
-      BigIp --> nd-gateway;
-      nd-gateway --> Apache;
-      Apache --> Javascript frontend;
-      nd-gateway --> Spring Boot backend;
-      Spring Boot backend --> DB;
-      Spring Boot backend --> Vendor Service;
+      User((User)) --> Firewall      
+      Firewall[/Firewall\] --> BigIP
+      BigIP --> nd-gateway
+      subgraph servers
+      nd-gateway(nd-gateway) --> Apache
+      Apache([Apache]) --> JSF(Javascript Frontend)
+      nd-gateway --> SBA(Spring Boot Backend)
+      end
+      SBA --> DB[(Database)]
+      SBA --> VS([Vendor Service])
+      
 ```
 
 All traffic from the web is encrypted and goes through the firewall and the load balancer (BigIP), where SSL certificates is installed for the different domains
