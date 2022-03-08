@@ -9,8 +9,7 @@
       Apache([Apache]) --> JSF(Javascript Frontend)      
       end
       SBA --> DB[(Database)]
-      SBA --> VS([Vendor Service])
-      
+      SBA --> VS([Vendor Service])      
 ```
 
 All traffic from the web is encrypted and goes through the firewall and the load balancer (BigIP), where SSL certificates is installed for the different domains we serve. The ecrypted traffic is terminated on the load balancer.
