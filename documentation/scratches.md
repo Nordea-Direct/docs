@@ -1,8 +1,8 @@
 
-#Capital allocation between CFF and GAI
+# Capital allocation between CFF and GAI
 
 
-##Components
+## Components
 ```mermaid
 flowchart LR
   classDef changes stroke-width:4px
@@ -27,7 +27,7 @@ flowchart LR
 
 
 
-##Sequence
+## Sequence
 
 ```mermaid
 sequenceDiagram
